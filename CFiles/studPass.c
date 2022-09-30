@@ -23,5 +23,8 @@ int main(int argc, char const *argv[])
         printf("Wrong input");
     }
     
+    //ternery version
+    (marks<=30)?printf("fail\n"):printf("pass\n");
+    
     return 0;
 }
