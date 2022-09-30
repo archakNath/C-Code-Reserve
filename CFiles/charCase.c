@@ -1,5 +1,5 @@
 /*
-    check whether entered character is upper case or not
+    check whether entered character is upper case or lower case or not an alphabet
     input a character
     check the condition
     print appropriate message
@@ -16,8 +16,10 @@ int main(int argc, char const *argv[])
     //if statement
     if(ch>='A' && ch<='Z'){
         printf("%c is an upper case character.", ch);
-    } else{
-        printf("%c is not an upper case character.", ch);
+    } else if(ch>='a' && ch<='z'){
+        printf("%c is a lower case character.", ch);
+    } else {
+        printf("%c is not an alphabet.", ch);
     }
     return 0;
 }
