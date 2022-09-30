@@ -18,15 +18,15 @@ int main(int argc, char const *argv[])
 
     //if statement
     if(marks<30){
-        printf("Grade:C");
+        printf("Grade:C\n");
     } else if(marks<70){
-        printf("Grade:B");
+        printf("Grade:B\n");
     } else if(marks<90){
-        printf("Grade:A");
+        printf("Grade:A\n");
     } else if(marks<=100){
-        printf("Grade:A+");
+        printf("Grade:A+\n");
     } else{
-        printf("Wrong input");
+        printf("Wrong input\n");
     }
     return 0;
 }
