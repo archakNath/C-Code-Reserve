@@ -16,9 +16,11 @@ int main(int argc, char const *argv[])
     //if statement
     if (marks>30)
     {
-        printf("Student has passed");
+        printf("Student has passed\n");
     } else if(marks<=30) {
-        printf("Student has failed");
+        printf("Student has failed\n");
+    }else{
+        printf("Wrong input");
     }
     
     return 0;
