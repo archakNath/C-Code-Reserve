@@ -18,8 +18,7 @@ int main(int argc, char const *argv[])
     *aptr = *bptr;
     *bptr = temp;
 
-    printf("\nThe value of a is %d \n", a);
-    printf("The value of b is %d \n", b);
+    printf("\nThe value of a is %d and value of b is %d.", a, b);
 
     return 0;
 }
